@@ -10,12 +10,12 @@
 </head>
 <body>
 
-  @include('partials.header')
-  @include('partials.main')
+  @include('partials_home.header')
+  {{-- @include('partials_home.main') --}}
 
   @yield('content')
 
-  @include('partials.footer')
+  @include('partials_home.footer')
 
 </body>
 </html>

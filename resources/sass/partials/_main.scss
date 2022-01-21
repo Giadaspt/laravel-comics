@@ -1,19 +1,23 @@
+
+
 main {
   background-color: $textHeadColor;
 }
 
-.contain {
+.gs_container{
+  width: 80%;
+  margin: 0 auto;
   @include center('both');
   flex-wrap: wrap;
-  padding-top: 24px;
+  padding-top: 78px;
 }
 
 .currentSeries{
   @include position('both');
-  width: 200px;
+  width: 230px;
   height: 40px;
   
-  h3 {
+  h5 {
     color: $textInColorBg;
     padding: 16px;
     margin-bottom: 58px;

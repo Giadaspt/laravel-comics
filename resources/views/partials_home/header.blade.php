@@ -1,6 +1,6 @@
 
 <header class="container mt-4">
-  <div class="image">
+  <div class="logo">
     <a href="{{ route('home') }}">
       <img src="{{asset('img/dc-logo.png')}}" alt="Dc Logo">
     </a>
@@ -51,5 +51,5 @@
   </nav>
 </header>
 
-<div class="jumbo"></div>
+
  

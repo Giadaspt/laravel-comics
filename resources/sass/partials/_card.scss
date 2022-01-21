@@ -1,5 +1,23 @@
 .card {
-  flex-basis: 14%;
+  width: 16%;
   color: $textInColorBg;
   padding: 10px;
+  background-color: transparent !important; 
+  background-clip: none !important; 
+  border: none !important; 
+  border-radius: none !important; 
+}
+
+.characterImage {
+  height: 10%;
+  object-fit: cover;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+h6{
+  padding: 12px 0;
 }
