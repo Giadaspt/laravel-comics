@@ -1,3 +1,145 @@
 body {
   background-color: rgba(0, 128, 0, 0.438);
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+}
+header .image {
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header ul li {
+  padding-right: 32px;
+}
+header ul li a {
+  padding-bottom: 42px;
+}
+header ul li a:hover {
+  color: #0282f9;
+}
+
+.jumbo {
+  height: 60vh;
+  background-image: url("../assets/img/jumbotron.jpg");
+  background-size: cover;
+}
+
+main {
+  background-color: black;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 24px;
+}
+
+.currentSeries {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 200px;
+  height: 40px;
+}
+.currentSeries h3 {
+  color: white;
+  padding: 16px;
+  margin-bottom: 58px;
+  background-color: #0282f9;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+button {
+  text-transform: capitalize;
+  color: white;
+  background-color: #0282f9;
+  padding: 12px 120px;
+  border: none;
+}
+
+.inMain {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-color: #0282f9;
+  color: white;
+  padding: 32px;
+}
+
+.containerInMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.containerInMain .market {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.marketImage {
+  width: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-right: 12px;
+}
+
+.card {
+  flex-basis: 14%;
+  color: white;
+  padding: 10px;
+}
+
+.inMain {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-color: #0282f9;
+  color: white;
+  padding: 32px;
+}
+
+.containerInMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.containerInMain .market {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.marketImage {
+  width: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-right: 12px;
+}

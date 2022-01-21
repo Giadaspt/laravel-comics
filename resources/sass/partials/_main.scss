@@ -1,0 +1,35 @@
+main {
+  background-color: $textHeadColor;
+}
+
+.contain {
+  @include center('both');
+  flex-wrap: wrap;
+  padding-top: 24px;
+}
+
+.currentSeries{
+  @include position('both');
+  width: 200px;
+  height: 40px;
+  
+  h3 {
+    color: $textInColorBg;
+    padding: 16px;
+    margin-bottom: 58px;
+    background-color: $colorActive;
+  }
+}
+
+.btn {
+  @include center('justify');
+  padding: 24px 0;
+}
+
+button {
+  text-transform: capitalize;
+  color: $textInColorBg;
+  background-color: $colorActive;
+  padding: 12px 120px;
+  border: none;
+}

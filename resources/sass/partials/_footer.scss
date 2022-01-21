@@ -1,0 +1,23 @@
+.inMain {
+  @include position ('align');
+  font-size: 18px;
+  background-color: $colorActive;
+  color: $textInColorBg;
+  padding: 32px
+} 
+
+.containerInMain {
+  @include position ('both');
+  width: 80%;
+  margin: 0 auto;
+  .market {
+    @include position ('align');
+    width: calc(100% / 5);
+  }
+}
+
+.marketImage {
+  width: 30px;
+  object-fit: cover;
+  padding-right: 12px;
+}
