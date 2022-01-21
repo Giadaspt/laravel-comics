@@ -2,7 +2,7 @@
 
 @section('content')
   <h2>
-    about
+    Personaggi
   </h2>
 
   

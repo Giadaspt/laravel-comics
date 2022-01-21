@@ -2,7 +2,7 @@
 
 @section('content')
   <h2>
-    contacts
+    comics
   </h2>
 
   
