@@ -10,14 +10,20 @@
   @include position ('both');
   width: 80%;
   margin: 0 auto;
-  .market {
+  .market{
     @include position ('align');
-    width: calc(100% / 5);
+    width: calc(100%/5);
+    padding-right: 24px;
   }
 }
 
 .marketImage {
-  width: 30px;
+  width: 32%;
+  height: 20%;
   object-fit: cover;
   padding-right: 12px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }

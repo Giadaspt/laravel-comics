@@ -52,7 +52,7 @@ header ul {
   align-items: center;
 }
 header ul li {
-  padding-right: 32px;
+  padding-right: 22px;
 }
 header ul li a {
   padding-bottom: 42px;
@@ -137,13 +137,19 @@ button {
   display: flex;
   align-items: center;
   width: 20%;
+  padding-right: 24px;
 }
 
 .marketImage {
-  width: 30px;
+  width: 32%;
+  height: 20%;
   -o-object-fit: cover;
      object-fit: cover;
   padding-right: 12px;
+}
+.marketImage img {
+  width: 100%;
+  height: 100%;
 }
 
 .card {
@@ -173,7 +179,7 @@ h6 {
 footer {
   width: 100%;
   height: 50vh;
-  background-image: url("../assets/img/footer-bg.jpg");
+  background-image: url("../img/footer-bg.jpg");
 }
 
 .contain {
@@ -191,12 +197,12 @@ footer {
 }
 
 .listFooter {
-  display: flex;
-  flex-wrap: wrap;
+  width: 47%;
 }
 
 ul {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   -webkit-margin-before: 0;
           margin-block-start: 0;
   -webkit-margin-after: 0;
@@ -205,15 +211,20 @@ ul {
 
 li {
   color: white;
+  line-height: 5px;
+  padding: 0 10px;
 }
-li h4 {
+li h6 {
   -webkit-margin-before: 0;
           margin-block-start: 0;
   -webkit-margin-after: 0;
           margin-block-end: 0;
 }
-li p {
+li .footerLinks {
+  color: white;
+  font-weight: normal;
   text-transform: capitalize;
+  font-size: 13px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
   -webkit-margin-after: 0;
@@ -251,7 +262,7 @@ li p {
   width: 50%;
 }
 .wrap .socialLogo {
-  width: 40px;
+  width: 64px;
   height: 40px;
   padding-right: 24px;
 }

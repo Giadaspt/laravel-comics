@@ -23,5 +23,19 @@
       </div>
     </div>
   </main>
+  <div class="inMain ">
+  <div class="containerInMain ">
+    @foreach ($markets as $market)
+    <div class="market">
+      <div class="marketImage">
+        <img src="{{$market['merchandise']}}" alt="">
+      </div>
+      <h6>{{$market['text']}}</h6>
+    </div>
+      @endforeach
+
+  </div>
+</div>
+  
 
 @endsection

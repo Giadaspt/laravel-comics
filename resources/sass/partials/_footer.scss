@@ -2,7 +2,7 @@
 footer {
   width: 100%;
   height: 50vh;
-  background-image: url('../assets/img/footer-bg.jpg');
+  background-image: url('../img/footer-bg.jpg');
 }
 
 .contain {
@@ -17,13 +17,13 @@ footer {
 }
 
 .listFooter {
-  display: flex;
-  flex-wrap: wrap;
+  width: 47%;
+  
 }
 
-
 ul {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   margin-block-start: 0;
   margin-block-end: 0;
   // padding-inline-start: 0;
@@ -31,16 +31,22 @@ ul {
 
 li {
   color: $textInColorBg;
-  h4 {
+  line-height: 5px;
+  padding: 0 10px;
+  h6 {
     margin-block-start: 0;
     margin-block-end: 0;
   }
-  p {
+  .footerLinks {
+    color: $textInColorBg;
+    font-weight: normal;
     text-transform: capitalize;
+    font-size: 13px;
     margin-block-start: 0;
     margin-block-end: 0;
   }
 }
+
 
 .footerBottom {
   @include position('both');
@@ -65,7 +71,7 @@ li {
   @include position ('both');
   width: 50%;
   .socialLogo {
-    width: 40px;
+    width: 64px;
     height: 40px;
     padding-right: 24px;
   }

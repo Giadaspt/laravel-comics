@@ -3,12 +3,16 @@
   <div class="contain container">
     <div class="listFooter">
       <ul>
-        <li>
-          <h4>title</h4>  
-          <p>
-            Lorem 
-          </p>
-        </li>
+        @foreach ($lists as $list)
+          <li>
+            <h6>{{$list['title']}}</h6>  
+            @foreach ($list['anchor'] as $item) 
+            <p>
+              <a class="footerLinks" href="#">{{$item}}</a>
+            </p>
+            @endforeach
+          </li>
+        @endforeach
       </ul>
     </div>
     <div class="DcImage">
@@ -17,13 +21,15 @@
   </div>
 
   <div class="footerBottom">
-    <div class="container">
+    <div class="container"> 
       <button> sign-up now! </button>
       <div class="wrap ">
-      <h4>Follow</h4>
-      <div class="socialLogo">
-        <a href="#"> <img src="{{asset('img/footer-facebook.png')}}" alt=""> </a>
-      </div>
+      <h5> follow us</h5>
+      @foreach ($socials as $social)
+        <div class="socialLogo">
+          <a href="#"> <img src="{{$social['social_icon']}}" alt=""> </a>
+        </div>
+      @endforeach
       </div>
     </div>
   </div>

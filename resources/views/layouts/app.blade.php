@@ -11,7 +11,9 @@
 <body>
 
   @include('partials_home.header')
+  {{-- @include('partials_home.jumbotron') --}}
   {{-- @include('partials_home.main') --}}
+  {{-- @include('partials_home.inMain') --}}
 
   @yield('content')
 
